@@ -10,14 +10,17 @@ const numbers = [1,2,3,4,5]
 const addOne = () => {
   let newArray = []
     //your code here.
-    
+    numbers.forEach((num) => {
+        newArray.push(num += 1)
+    })
+    return newArray
 }
 
-const subtractOne = () => {
-    let newArray = []
-    //your code here.
+// const subtractOne = () => {
+//     let newArray = []
+//     //your code here.
     
-}
+// }
 
 
 

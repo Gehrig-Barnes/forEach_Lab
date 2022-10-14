@@ -1,16 +1,32 @@
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-14T03:31:26.880Z",
-    "end": "2022-10-14T03:31:26.880Z",
-    "duration": 0
+    "start": "2022-10-14T04:32:23.664Z",
+    "end": "2022-10-14T04:32:23.805Z",
+    "duration": 141
   },
-  "tests": [],
+  "tests": [
+    {
+      "title": "returns an array that adds one to each element of original array",
+      "fullTitle": "index.js addOne() returns an array that adds one to each element of original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
   "pending": [],
   "failures": [],
-  "passes": []
+  "passes": [
+    {
+      "title": "returns an array that adds one to each element of original array",
+      "fullTitle": "index.js addOne() returns an array that adds one to each element of original array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
