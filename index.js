@@ -16,11 +16,13 @@ const addOne = () => {
     return newArray
 }
 
-// const subtractOne = () => {
-//     let newArray = []
-//     //your code here.
-    
-// }
+const subtractOne = () => {
+    let newArray = []
+    numbers.forEach((num) => {
+        newArray.push(num -= 1)
+    })
+    return newArray
+}
 
 
 
