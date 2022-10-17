@@ -78,14 +78,13 @@ describe("index.js", function () {
     });
 
     it("logs FizzBuzz when num is divisible by 3 and 5", () => {
-      fizzBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
+      fizzBuzz([15]);
       expect(spy.calledWithExactly(15), "Expected 15 to log FizzBuzz").to.be
-        .false;
-      expect(console.log.calledWith("FizzBuzz")).to.be.true;
+        .false && expect(console.log.calledWith("FizzBuzz")).to.be.true;
     });
 
     it("logs Fizz when num is divisible by 3", () => {
-      fizzBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
+      fizzBuzz([3, 6, 9, 12]);
       expect(spy.calledWithExactly(3), "Expected 3 to log Fizz").to.be.false &&
         expect(console.log.calledWith("Fizz")).to.be.true;
 
@@ -100,7 +99,7 @@ describe("index.js", function () {
     });
 
     it("logs Buzz when num is divisible by 5", () => {
-      fizzBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
+      fizzBuzz([5, 10]);
       expect(spy.calledWithExactly(5), "Expected 5 to log Buzz").to.be.false &&
         expect(console.log.calledWith("Buzz")).to.be.true;
 

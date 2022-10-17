@@ -5,9 +5,9 @@
     "passes": 6,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-17T14:58:18.372Z",
-    "end": "2022-10-17T14:58:18.520Z",
-    "duration": 148
+    "start": "2022-10-17T20:05:13.924Z",
+    "end": "2022-10-17T20:05:14.081Z",
+    "duration": 157
   },
   "tests": [
     {
@@ -34,21 +34,21 @@
     {
       "title": "logs FizzBuzz when num is divisible by 3 and 5",
       "fullTitle": "index.js fizzBuzz() logs FizzBuzz when num is divisible by 3 and 5",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "logs Fizz when num is divisible by 3",
       "fullTitle": "index.js fizzBuzz() logs Fizz when num is divisible by 3",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "logs Buzz when num is divisible by 5",
       "fullTitle": "index.js fizzBuzz() logs Buzz when num is divisible by 5",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -80,21 +80,21 @@
     {
       "title": "logs FizzBuzz when num is divisible by 3 and 5",
       "fullTitle": "index.js fizzBuzz() logs FizzBuzz when num is divisible by 3 and 5",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "logs Fizz when num is divisible by 3",
       "fullTitle": "index.js fizzBuzz() logs Fizz when num is divisible by 3",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "logs Buzz when num is divisible by 5",
       "fullTitle": "index.js fizzBuzz() logs Buzz when num is divisible by 5",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
