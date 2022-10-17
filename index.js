@@ -1,5 +1,5 @@
 //
-const array = Array(100).fill(1).map((n, i) => n + i)
+// const array = Array(100).fill(1).map((n, i) => n + i)
 
 const addOne = (numArr) => {
     numArr.forEach((num) => {
@@ -30,7 +30,7 @@ const fizzBuzz = (arr) => {
     })
 }
 
-fizzBuzz(array)
+
 
 
 

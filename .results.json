@@ -1,13 +1,13 @@
 {
   "stats": {
     "suites": 4,
-    "tests": 2,
-    "passes": 2,
+    "tests": 6,
+    "passes": 6,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-17T13:09:13.006Z",
-    "end": "2022-10-17T13:09:13.221Z",
-    "duration": 215
+    "start": "2022-10-17T14:58:18.372Z",
+    "end": "2022-10-17T14:58:18.520Z",
+    "duration": 148
   },
   "tests": [
     {
@@ -18,9 +18,37 @@
       "err": {}
     },
     {
-      "title": "adds one to each number",
-      "fullTitle": "index.js subtractOne() adds one to each number",
+      "title": "subtracts one from each number",
+      "fullTitle": "index.js subtractOne() subtracts one from each number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs the number when num is not divisible by 3 or 5",
+      "fullTitle": "index.js fizzBuzz() logs the number when num is not divisible by 3 or 5",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs FizzBuzz when num is divisible by 3 and 5",
+      "fullTitle": "index.js fizzBuzz() logs FizzBuzz when num is divisible by 3 and 5",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs Fizz when num is divisible by 3",
+      "fullTitle": "index.js fizzBuzz() logs Fizz when num is divisible by 3",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs Buzz when num is divisible by 5",
+      "fullTitle": "index.js fizzBuzz() logs Buzz when num is divisible by 5",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -36,9 +64,37 @@
       "err": {}
     },
     {
-      "title": "adds one to each number",
-      "fullTitle": "index.js subtractOne() adds one to each number",
+      "title": "subtracts one from each number",
+      "fullTitle": "index.js subtractOne() subtracts one from each number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs the number when num is not divisible by 3 or 5",
+      "fullTitle": "index.js fizzBuzz() logs the number when num is not divisible by 3 or 5",
       "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs FizzBuzz when num is divisible by 3 and 5",
+      "fullTitle": "index.js fizzBuzz() logs FizzBuzz when num is divisible by 3 and 5",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs Fizz when num is divisible by 3",
+      "fullTitle": "index.js fizzBuzz() logs Fizz when num is divisible by 3",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "logs Buzz when num is divisible by 5",
+      "fullTitle": "index.js fizzBuzz() logs Buzz when num is divisible by 5",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
