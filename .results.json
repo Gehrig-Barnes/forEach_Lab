@@ -1,18 +1,25 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 1,
-    "passes": 1,
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-17T12:57:05.198Z",
-    "end": "2022-10-17T12:57:05.341Z",
-    "duration": 143
+    "start": "2022-10-17T13:09:13.006Z",
+    "end": "2022-10-17T13:09:13.221Z",
+    "duration": 215
   },
   "tests": [
     {
       "title": "adds one to each number",
       "fullTitle": "index.js addOne() adds one to each number",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds one to each number",
+      "fullTitle": "index.js subtractOne() adds one to each number",
       "duration": 1,
       "currentRetry": 0,
       "err": {}
@@ -24,6 +31,13 @@
     {
       "title": "adds one to each number",
       "fullTitle": "index.js addOne() adds one to each number",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds one to each number",
+      "fullTitle": "index.js subtractOne() adds one to each number",
       "duration": 1,
       "currentRetry": 0,
       "err": {}

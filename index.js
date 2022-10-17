@@ -5,8 +5,10 @@ const addOne = (numArr) => {
     })
 }
 
-const subtractOne = () => {
-   
+const subtractOne = (numArr) => {
+    numArr.forEach((num) => {
+        console.log(num -= 1 )
+    })
 }
 
 
