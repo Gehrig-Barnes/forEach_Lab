@@ -49,7 +49,7 @@ const src = babelResult.code
 
 //https://www.testim.io/blog/jsdom-a-guide-to-how-to-get-started-and-what-you-can-do/#:~:text=JSDOM%20is%20a%20library%20which,it%20will%20parse%20that%20HTML.
 //jsdom parses and interacts with code just like a web browser. But it's not web browser, I guess it just mimics one. 
-//basically emulates a web browser
+//basically emulates a web browser 
 jsdom({
   html, src
 });

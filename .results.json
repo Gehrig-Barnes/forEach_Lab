@@ -1,26 +1,19 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 2,
-    "passes": 2,
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-14T04:39:28.070Z",
-    "end": "2022-10-14T04:39:28.211Z",
-    "duration": 141
+    "start": "2022-10-17T12:57:05.198Z",
+    "end": "2022-10-17T12:57:05.341Z",
+    "duration": 143
   },
   "tests": [
     {
-      "title": "returns an array that adds one to each element using numbers array",
-      "fullTitle": "index.js addOne() returns an array that adds one to each element using numbers array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "returns an array that subtracts one of each element from numbers array",
-      "fullTitle": "index.js subtractOne() returns an array that subtracts one of each element from numbers array",
-      "duration": 0,
+      "title": "adds one to each number",
+      "fullTitle": "index.js addOne() adds one to each number",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -29,16 +22,9 @@
   "failures": [],
   "passes": [
     {
-      "title": "returns an array that adds one to each element using numbers array",
-      "fullTitle": "index.js addOne() returns an array that adds one to each element using numbers array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "returns an array that subtracts one of each element from numbers array",
-      "fullTitle": "index.js subtractOne() returns an array that subtracts one of each element from numbers array",
-      "duration": 0,
+      "title": "adds one to each number",
+      "fullTitle": "index.js addOne() adds one to each number",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
