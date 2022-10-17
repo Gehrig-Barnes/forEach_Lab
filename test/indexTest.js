@@ -1,4 +1,5 @@
 const sinon = require( 'sinon' )
+var assert = require('assert');
 
 describe('index.js', function () {
     let spy
@@ -9,7 +10,6 @@ describe('index.js', function () {
     afterEach(() => {
         spy.restore();
     })
-    
     
    
     describe('addOne()', function() {
